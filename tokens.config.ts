@@ -4,8 +4,10 @@ export default defineTheme({
   alpine: {
     body: {
       color: {
-        initial: 'green',
-        dark: 'red'
+        value: {
+          initial: 'green',
+          dark: 'red'
+        }
       }
     }
   }
